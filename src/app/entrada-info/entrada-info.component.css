@@ -1,21 +1,21 @@
-/* Hace que el contenedor del formulario tenga bordes no redondeados y un borde azul */
+
 .card {
     border-radius: 0;
     border: 2px solid #007BFF;
 }
 
-/* Establece que los campos del formulario tengan bordes no redondeados y un borde azul */
+
 .form-control {
     border-radius: 0;
     border: 2px solid #007BFF;
 }
 
-/* Cambia el color del texto de los labels a azul */
+
 label {
     color: #007BFF;
 }
 
-/* Establece el color del botón a azul cuando está habilitado */
+
 .btn-primary {
     background-color: #0E387E;
     border-color: #0E387E;

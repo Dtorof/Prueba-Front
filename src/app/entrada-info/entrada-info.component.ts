@@ -37,11 +37,11 @@ export class EntradaInfoComponent {
   
 
   formatoNumero() {
-    let num = this.numeroDocumento.replace(/\D/g, ""); // Eliminar caracteres no numéricos
-    this.numeroDocumento = parseInt(num, 10).toLocaleString('en-US'); // Convertir a número y formatear con separadores de miles
+    let num = this.numeroDocumento.replace(/\D/g, ""); 
+    this.numeroDocumento = parseInt(num, 10).toLocaleString('en-US'); 
 }
 soloNumeros(event: KeyboardEvent) {
-  const pattern = /[0-9]/; // Solo números
+  const pattern = /[0-9]/; 
   let inputChar = String.fromCharCode(event.charCode);
   
   if (!pattern.test(inputChar)) {

@@ -1,0 +1,14 @@
+<div class="card w-50 mx-auto mt-5 p-4 shadow">
+    <h1 class="obligatorio-texto">Resumen del Usuario</h1>
+    <div class="form-group">
+        <label for="primerApellido">Primer apellido</label>
+        <input type="text" class="form-control" [(ngModel)]="datosUsuario.primerApellido" disabled>
+      </div>
+      
+      <div class="form-group">
+        <label for="primerNombre">Primer nombre</label>
+        <input type="text" class="form-control" [(ngModel)]="datosUsuario.primerNombre" disabled>
+      </div>
+    <button class="btn btn-primary " (click)="volver()">Volver</button>
+ </div>
+ 
